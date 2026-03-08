@@ -158,6 +158,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,90)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
@@ -228,10 +231,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
-
-# High Brightness Mode
-PRODUCT_PACKAGES += \
-    HighBrightnessMode
 
 # Hotword enrollment
 PRODUCT_COPY_FILES += \
