@@ -34,9 +34,6 @@ BYPASS_CHARGE_TOGGLE_PATH := /sys/class/power_supply/battery/input_suspend
 GPU_FREQS_PATH := /sys/devices/platform/soc/3d00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/devfreq/available_frequencies
 GPU_MIN_FREQ_PATH := /sys/devices/platform/soc/3d00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/devfreq/min_freq
 
-HBM_SUPPORTED := true
-HBM_NODE := /sys/kernel/oplus_display/hbm
-
 AXION_MAINTAINER := Sreeshankar_K
 AXION_PROCESSOR := Snapdragon_765G_5G
 AXION_CAMERA_REAR_INFO := 48,8,5,2
