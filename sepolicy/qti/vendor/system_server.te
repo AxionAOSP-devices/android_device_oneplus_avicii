@@ -1,2 +1,8 @@
 rw_dir_file(system_server, vendor_proc_tri_state_key)
 allow system_server vendor_sysfs_battery_supply:file r_file_perms;
+
+# GPU kernel manager
+allow system_server vendor_sysfs_kgsl:dir r_dir_perms;
+allow system_server vendor_sysfs_kgsl:file rw_file_perms;
+allow system_server vendor_sysfs_kgsl:lnk_file r_file_perms;
+allow system_server vendor_sysfs_kgsl_gpuclk:file r_file_perms;
