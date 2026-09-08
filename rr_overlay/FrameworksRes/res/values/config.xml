@@ -795,6 +795,7 @@
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">true</bool>
 
+<<<<<<< HEAD
     <!-- Whether device has warp charging support -->
     <bool name="config_hasWarpCharger">true</bool>
 
@@ -806,5 +807,8 @@
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
+
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
 
 </resources>
