@@ -56,6 +56,7 @@ $(call soong_config_set,camera,package_name,com.oneplus.camera)
 # Display
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
 TARGET_SCREEN_DENSITY := 450
+TARGET_INCLUDES_DolbyVision := true
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/odm.prop
