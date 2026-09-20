@@ -22,6 +22,10 @@ ro.oplus.version.base=1.21.7250.2023122816073522520246
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# Deep Sleep
+pm.sleep_mode=1
+vendor.post_boot.parsed=1s
+
 # DPM
 persist.vendor.dpm.feature=9
 
@@ -56,6 +60,4 @@ ro.vendor.qti.va_aosp.support=1
 
 # Save battery
 wifi.supplicant_scan_interval=180
-pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
-
