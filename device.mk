@@ -359,6 +359,9 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
 
+# Properties
+include $(LOCAL_PATH)/vendor_logtag.mk
+
 # QMI
 PRODUCT_PACKAGES += \
     libcurl.vendor:64 \
