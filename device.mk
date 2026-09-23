@@ -35,7 +35,7 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 # Audio
 PRODUCT_PACKAGES += \
     audio_amplifier.qcom \
-    android.hardware.audio@7.0-impl \
+    android.hardware.audio@7.1-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
