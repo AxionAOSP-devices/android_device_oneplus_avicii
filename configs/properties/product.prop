@@ -22,3 +22,18 @@ ro.com.baidu.input.pad_land_b=10
 
 # Google Lens
 ro.com.google.lens.oem_image_package=com.oneplus.gallery
+
+# SurfaceFlinger dynamic duration
+persist.sys.sf.dynamic_duration.switch=1
+persist.sys.sf.dynamic_duration.sf.late.60=10500000
+persist.sys.sf.dynamic_duration.app.late.60=13666666
+persist.sys.sf.dynamic_duration.sf.early.60=10500000
+persist.sys.sf.dynamic_duration.app.early.60=13666666
+persist.sys.sf.dynamic_duration.sf.earlyGl.60=10500000
+persist.sys.sf.dynamic_duration.app.earlyGl.60=13666666
+persist.sys.sf.dynamic_duration.sf.late.90=9400000
+persist.sys.sf.dynamic_duration.app.late.90=12400000
+persist.sys.sf.dynamic_duration.sf.early.90=9400000
+persist.sys.sf.dynamic_duration.app.early.90=12800000
+persist.sys.sf.dynamic_duration.sf.earlyGl.90=9400000
+persist.sys.sf.dynamic_duration.app.earlyGl.90=12800000
